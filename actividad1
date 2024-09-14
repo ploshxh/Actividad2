@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class actividad1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedir al usuario que ingrese 2 numeros  dos números
+        System.out.println("Ingrese el primer número: ");
+        int num1 = scanner.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        int num2 = scanner.nextInt();
+
+        // Realizar operaciones
+        int suma = num1 + num2;
+        int multiplicacion = num1 * num2;
+
+        // Imprimir resultados
+        System.out.println("La suma es: " + suma);
+        System.out.println("La multiplicación es: " + multiplicacion);
+    }
+}
